@@ -2,6 +2,7 @@
   <library name="mariadb-java-client-2.6.0">
     <CLASSES>
       <root url="jar://$PROJECT_DIR$/../../../../Java/mariadb-java-client-2.6.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../Java/sqlite-jdbc-3.27.2.1.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />

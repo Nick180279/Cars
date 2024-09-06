@@ -21,7 +21,11 @@ public class DBHandler {
 
     private DBHandler() throws SQLException {
         DriverManager.registerDriver(new Driver());
-        this.connection = DriverManager.getConnection("jdbc:mariadb://localhost:3306/market","root","");
+        //once upon a time i put all my data in local instace of MariaDB
+        //next commented string for this connection
+        //this.connection = DriverManager.getConnection("jdbc:mariadb://localhost:3306/market","root","");
+        //This string is for connection to SQLite base in file c:\SQLite\market.db
+        this.connection = DriverManager.getConnection("jdbc:sqlite:C:/SQLite/market.db");
     }
 
     public ArrayList<Car> getAllCars(){
