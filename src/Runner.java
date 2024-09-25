@@ -7,7 +7,7 @@ public class Runner {
         Scanner scan = new Scanner(System.in);
         ArrayList<Car> market;
         DBHandler dbh = null;
-        char ch = '1';
+        char ch;
         String mark;
         String model;
         int years;
